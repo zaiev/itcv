@@ -2,50 +2,64 @@
 name: Roman Zaiev
 photo: "me.jpg"
 who:
-  - Full Stack Software Engineer, Python + JS/TS
-  - 10 years of professional experience
-natural_languages: >
-  English (C1), Russian (C2), Ukrainian (C2)
+  - Software Engineer, Senior Python Developer
+  - 12 years of professional experience
+natural_languages:
+  - English (C1), Russian (C2), Ukrainian (C2)
 programming_languages:
   - Python (primarily), JavaScript & TypeScript
   - Familiar with Rust, Go, Clojure and others
+stack:
+  - FastAPI, PostgreSQL, Ansible, Docker / Podman, K8s, OSX / Linux / BSD
 address:
   - London, GB
-  - non-EEA Tier 2 Skilled Worker
-phone: "+44 ... ..."
-email: semirook@gmail.com
+phone: "+44 ..."
+email: "not@my-real-email.com"
 urls:
   - linkedin.com/in/semirook
   - github.com/semirook
 pets:
   - "[Krolib: magic library and DSL to handle complex schedules](https://github.com/nextiva/krolib)"
-  - "[Flask-Kit: backbone for Flask-based projects with a flavor of Django](https://github.com/semirook/flask-kit)"
   - "[Snaql: raw *QL queries in Python without pain](https://github.com/semirook/snaql)"
   - "*...and [others](https://github.com/semirook)*"
 talks:
   - "[API-centric Web Development with Tornado](https://speakerdeck.com/semirook/api-centric-web-development-with-tornado-or-the-great-refactoring-story) (2015)"
   - "[Search? Sphinx!](https://speakerdeck.com/semirook/poisk-sphinx) (2013)"
 intro:
-  - Over the past years, I have faced unique challenges in a plethora of different projects.
-    Having a strong background in software engineering, deep understanding of modern technologies and their possibilities,
-    my skills can be of use to your business.
-  - Scrum? Kanban? Waterfall? Yes. TDD? DDD? EDA? Definitely.
-  - According to [the list of soft skills](https://www.thebalancecareers.com/list-of-soft-skills-2063770), I have all of them. Well, most of them.
-  - Passionate about my channels in Telegram, like [Tipa Pro IT](https://t.me/tipaproit) (to keep up with the industry)
-    and [Tipa Pro UK](https://t.me/tipaprouk) (to share my love of London), graphic and web design, UI/UX, urbanism, playing Go and learning something new.
+  - "In my career, I've advanced from small yet ambitious startups and high-load e-commerce platforms to my current role at a prominent UK fintech company."
+  - "With a robust software engineering background and a profound understanding of modern technologies including their practical applications, my extensive skills are well-suited to benefit your business."
+  - "It's worth mentioning that at the moment I require support for a Skilled Worker visa to continue working in the UK."
 
 experience:
-  - years: Dec 2019 — Present
+  - years: Feb 2022 — Sep 2022
     employer: "[Revolut](https://www.revolut.com)"
     city: London, GB
-    job: Software Engineer
+    job: Software Engineer @ Experimentation Platform
     details:
-      - "Backoffice services and applications."
-      - "Designed and implemented robust solutions for multiple internal projects like
-        Modeling Liquidity Risk, Vendor Due Diligence and Counterparty Exposures.
-        Applications maintenance and improvements as a daily routine."
+      - "Introduced and successfully implemented a comprehensive set of sleek and efficient solutions that formed the foundation of the entire project.
+        Took the necessary leadership and ownership to rapidly adapt the product to constantly changing requirements."
     stack:
-      - Python 3, Flask, FastAPI, PostgreSQL, Exasol, K8S, Terraform, etc.
+      - Python 3, FastAPI, PostgreSQL, Trino, K8s, Pandas, etc.
+      - Smart home-made libraries to manage growing logic complexity.
+
+  - years: Feb 2022 — Sep 2022
+    employer: "[Revolut](https://www.revolut.com)"
+    city: London, GB
+    job: Software Engineer @ Retail Data Science Team
+    details:
+      - "Was actively involved in the design and development of the Feature Store, successfully implementing several high-level PoCs for our Data Science team."
+    stack:
+      - Python 3, FastAPI, PostgreSQL, Trino, K8s, Helm, etc.
+      - Airflow
+
+  - years: Dec 2019 — Jan 2022
+    employer: "[Revolut](https://www.revolut.com)"
+    city: London, GB
+    job: Software Engineer @ Risks Dev Team
+    details:
+      - "Designed and implemented robust solutions for multiple department-level internal projects, while also performing daily maintenance and improvements."
+    stack:
+      - Python 3, Flask, FastAPI, PostgreSQL, etc.
       - React, TypeScript
 
   - years: Fab 2017 — Aug 2019
@@ -54,11 +68,9 @@ experience:
     job: Software Engineer
     details:
       - "[Rules Engine](https://www.nextiva.com/support/articles/managing-automation-and-rules-in-nextiva-service-crm.html) development."
-      - "Was working on the Core application, DSL to describe rules conditions,
-        handy library to handle complex schedules (was published as the company's first open source project — Krolib)
-        for so-called time-based rules, internal SaaS on top of it and many more."
+      - "Designed and developed the Core app, a DSL for describing rule conditions, a handy library to handle complex schedules (published as the company's first open-source project — Krolib), and contributed to the creation of an internal SaaS platform on top of it."
     stack:
-      - Python 3, asyncio, aiohttp, RabbitMQ, JSON:API, Protobuf, gRPC, PostgreSQL, K8S, etc.
+      - Python 3, asyncio, aiohttp, RabbitMQ, JSON:API, Protobuf, gRPC, PostgreSQL, etc.
 
   - years: Nov 2015 — Nov 2016
     employer: "[B2B Soft](https://b2bsoft.com)"
@@ -71,7 +83,7 @@ experience:
       - ES6, React/Redux, Webpack (SPA)
       - Sphinx Search (live search, geo, delta indexes)
       - Real-time billing and stats (Apache Kafka, MongoDB)
-      - Third-party APIs integration (Authorize.Net, Google, Facebook, Mandrill, MaxMind)
+      - Third-party API integrations (Authorize.Net, Google, Facebook, Mandrill)
       - Ansible (IaC), AWS (EC2, RDS, S3, Route53) to rule them all
 
   - years: Mar 2015 — Nov 2015
@@ -79,7 +91,7 @@ experience:
     city: Kyiv & Lviv, Ukraine // San Jose, USA
     job: Software Engineer
     details:
-      - "Telemetry aggregation solution for Cisco; Cloud Services, BigData extension for OpenStack Horizon."
+      - "Telemetry aggregation solution for Cisco Cloud Services, BigData extension for OpenStack Horizon."
     stack:
       - Python 2/3, Logstash, MongoDB, RabbitMQ, Puppet
       - OpenStack, Flask, Tornado, Ansible
@@ -118,25 +130,12 @@ experience:
     stack:
       - Python 2, Pylons, SQLAlchemy, Celery, Mercurial
 
-  - years: May 2011 — Nov 2012
-    employer: "[Future Colors](https://github.com/futurecolors)"
-    city: Moscow, Russia
-    job: Backend Developer
-    details:
-      - "Participated in the development of:
-        TNK series websites (TNK Carbon, regional site), [FutureToday](http://fut.ru) (job offers for Russian students),
-        [Belonika](http://belonika.ru) (Russian top blogger culinary portal),
-        [RAF](http://0560.ru/en/) (Russian Auto Fellowship)."
-    stack:
-      - Python 2, Django, Celery, Sphinx Search
-      - Some frontend tasks with jQuery and Backbone.js
-
 # Settings
 mainfont: Hoefler Text
 altfont: Helvetica Neue
 monofont: Courier
 fontsize: 12pt
 lang: en-US
-geometry: a4paper, left=50mm, right=30mm, top=40mm, bottom=40mm, marginparwidth=40mm
+geometry: a4paper, left=50mm, right=25mm, top=25mm, bottom=25mm, marginparwidth=40mm
 ---
 

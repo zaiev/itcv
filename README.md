@@ -4,36 +4,36 @@
 
 ## Intro
 
-The separation of content and presentation makes life easier.
+The separation of content and presentation makes life easier, right?
 And it's a perfect fit for a YAML file due to its structured nature:
 
 ```YAML
 ---
-name: Your Name
+name: Full Name
 photo: "me.jpg"
 who:
   - Great Developer
-natural_languages: >
-  English (C1)
-programming_languages: >
-  Python, JavaScript
+natural_languages:
+  - English (C1)
+programming_languages:
+  - Python, JavaScript
 address:
   - City, Country
-email: semirook@gmail.com
+email: me@email.com
 urls:
   - linkedin
   - github
-intro: >
-  Your cover letter
+intro:
+  - Fantastic cover letter
 experience:
-- years: Month 2017 — Month 2019
-  employer: Company
-  city: City, Country
-  job: Software Engineer
-  details: >
-    Your unique experience
-  stack:
-    - list of buzzwords
+  - years: Month 2019 — Month 2024
+    employer: Company
+    city: City, Country
+    job: Software Engineer
+    details:
+      - "Unique experience details"
+    stack:
+      - list, of, buzzwords
 ```
 
 That makes super easy to update your CV while keeping a consistent structure.
@@ -70,6 +70,12 @@ Your photo is rounded automatically but maybe you'll need to play around the `ro
 To install LaTeX on Mac OS X, I recommend getting the smaller version BasicTeX from [here](https://tug.org/mactex/morepackages.html) and installing the additional packages with `tlmgr` afterwards. Same goes for Linux: install `texlive-base` with your package manager and add the needed additional packages later.
 
 To install pandoc on Mac OS X, run `brew install pandoc`. To install it on Linux, refer to the [official docs](http://pandoc.org/installing.html).
+
+For Fedora users:
+
+1. Run `sudo dnf install texlive-scheme-basic pandoc`
+2. Run `sudo dnf install 'tex(xltxtra.sty)' 'tex(sectsty.sty)' 'tex(ulem.sty)'`
+3. Install [Hoefler Font](https://fontsgeek.com/hoefler-text-font)
 
 ## Getting started
 

@@ -114,7 +114,7 @@ $phone$\\
 \columnbreak
 
 \centering
-\roundpic{4cm}{6cm}{$photo$}
+\roundpic{4cm}{4cm}{$photo$}
 \end{multicols}
 
 \vspace{2em}
@@ -127,6 +127,29 @@ $if(intro)$
 \vspace{1em}
 $for(intro)$
 $intro$\\[.5em]
+$endfor$
+\vspace{1em}
+$endif$
+
+\note{Languages}
+\vspace{.1em}
+$if(natural_languages)$
+$for(natural_languages)$
+\small{$natural_languages$}\\
+$endfor$
+$endif$
+\vspace{.5em}
+$if(programming_languages)$
+$for(programming_languages)$
+\small{$programming_languages$}\\
+$endfor$
+$endif$
+
+$if(talks)$
+\vspace{1em}
+\note{Stack}
+$for(stack)$
+$stack$\\[.1em]
 $endfor$
 $endif$
 
@@ -146,31 +169,16 @@ $talks$\\[.1em]
 $endfor$
 $endif$
 
-\vspace{1em}
-
-\note{Languages}
-\vspace{.1em}
-$if(natural_languages)$
-$for(natural_languages)$
-\small{$natural_languages$}\\
-$endfor$
-\vspace{.5em}
-$endif$
-$if(programming_languages)$
-$for(programming_languages)$
-\small{$programming_languages$}\\
-$endfor$
-$endif$
-
 \vfill
 
 \section*{Experience}
+\vspace{1em}
 $for(experience)$
 \note{$experience.years$}\textbf{$experience.employer$} ({$experience.city$})\\
 \emph{$experience.job$}\\[.5em]
 $if(experience.details)$
 $for(experience.details)$
-$experience.details$\\[.2em]
+$experience.details$\\[.1em]
 $endfor$
 \vspace{.5em}
 $endif$
