@@ -1,141 +1,144 @@
----
 name: Roman Zaiev
 photo: "me.jpg"
-who:
-  - Software Engineer, Senior Python Developer
-  - 12 years of professional experience
-natural_languages:
-  - English (C1), Russian (C2), Ukrainian (C2)
-programming_languages:
-  - Python (primarily), JavaScript & TypeScript
-  - Familiar with Rust, Go, Clojure and others
-stack:
-  - FastAPI, PostgreSQL, Ansible, Docker / Podman, K8s, OSX / Linux / BSD
-address:
-  - London, GB
-phone: "+44 ..."
-email: "not@my-real-email.com"
-urls:
-  - linkedin.com/in/semirook
+lang: en
+email: roman@zaiev.net
+social_urls:
+  - linkedin.com/in/zaiev
+personal_urls:
   - github.com/semirook
-pets:
-  - "[Krolib: magic library and DSL to handle complex schedules](https://github.com/nextiva/krolib)"
-  - "[Snaql: raw *QL queries in Python without pain](https://github.com/semirook/snaql)"
-  - "*...and [others](https://github.com/semirook)*"
+  - hypha.pub
+address:
+  - London, GB (settled, no visa required)
+
+who:
+  - Senior Software Engineer | Technical Founder
+  - 15 years of professional experience
+
+natural_languages:
+  - English (C1) · Ukrainian (native) · Russian (native)
+
+programming_languages:
+  - Python (expert) · JavaScript & TypeScript · Familiar with Rust, Go, OCaml, Clojure
+
+stack:
+  - FastAPI · PostgreSQL · Redis · DuckDB
+  - Solid.js · React · HTMX
+  - FreeBSD / Jails · Linux / Docker / K8s
+  - Ansible · Terraform · CI/CD · AWS / GCP
+  - Solana · Anchor (smart contracts)
+
+projects:
+  - text: "Hypha — video platform with non-custodial economy"
+    url: "hypha.tv"
+
 talks:
-  - "[API-centric Web Development with Tornado](https://speakerdeck.com/semirook/api-centric-web-development-with-tornado-or-the-great-refactoring-story) (2015)"
-  - "[Search? Sphinx!](https://speakerdeck.com/semirook/poisk-sphinx) (2013)"
+  - text: "Stop Using ORMs // PyCon LT 2026"
+    url: "pycon.lt/2026/talks/USQ7KK"
+  - text: "Rethinking the Stack // PyCon Wrocław 2025"
+    url: "2025.pyconwroclaw.com"
+  - text: "API-centric Web Development with Tornado // Kyiv IT Weekend 2015"
+    url: "speakerdeck.com/semirook/api-centric-web-development-with-tornado-or-the-great-refactoring-story"
+
 intro:
-  - "In my career, I've advanced from small yet ambitious startups and high-load e-commerce platforms to my current role at a prominent UK fintech company."
-  - "With a robust software engineering background and a profound understanding of modern technologies including their practical applications, my extensive skills are well-suited to benefit your business."
-  - "It's worth mentioning that at the moment I require support for a Skilled Worker visa to continue working in the UK."
+  - Software engineer with 15 years of experience designing and building production
+    systems end-to-end — from high-load e-commerce platforms and fintech infrastructure
+    to an early-stage video platform with on-chain payments.
+
+  - Known for building systems that are simple, elegant, and reliable for the long run.
+
+  - I operate best in environments that value technical depth, vision and ownership, alongside talented and self-motivated people on problems that matter.
+
+  - Looking for a senior engineering role with room to grow and long-term impact.
 
 experience:
-  - years: Feb 2022 — Sep 2022
-    employer: "[Revolut](https://www.revolut.com)"
+  - years: "AUG 2025 — NOW"
+    employer: Hypha Technologies Ltd
     city: London, GB
-    job: Software Engineer @ Experimentation Platform
+    job: "Founder & CTO"
     details:
-      - "Introduced and successfully implemented a comprehensive set of sleek and efficient solutions that formed the foundation of the entire project.
-        Took the necessary leadership and ownership to rapidly adapt the product to constantly changing requirements."
+      - "Designed and built a complete video-on-demand platform end-to-end — backend, frontend, payments, data processing pipelines, and infrastructure."
+      - "Implemented non-custodial on-chain payments using Solana smart contracts for instant settlement and no intermediary."
+      - "Built encrypted streaming and 4K HDR transcoding pipeline with efficient video fingerprinting."
+      - "Designed custom bare-metal infrastructure on FreeBSD for performance and cost efficiency (case study under discussion with FreeBSD Foundation)."
+      - "Currently onboarding early creators, mentoring engineers, and consulting while refining the platform's economy."
     stack:
-      - Python 3, FastAPI, PostgreSQL, Trino, K8s, Pandas, etc.
-      - Smart home-made libraries to manage growing logic complexity.
+      - Python, FastAPI, PostgreSQL, TimescaleDB, Redis, DuckDB, Solana, Anchor, Solid.js, HTMX, SSE, FreeBSD / Jails, Ansible
 
-  - years: Feb 2022 — Sep 2022
-    employer: "[Revolut](https://www.revolut.com)"
+  - years: "OCT 2022 — DEC 2024"
+    employer: Revolut
     city: London, GB
-    job: Software Engineer @ Retail Data Science Team
+    job: "Software Engineer — Experimentation Platform"
     details:
-      - "Was actively involved in the design and development of the Feature Store, successfully implementing several high-level PoCs for our Data Science team."
+      - "Designed and built the core infrastructure for Revolut’s Experimentation Platform, adopted as the company-wide standard across product and ML teams. Replaced fragmented A/B tooling with a unified, scalable system. Built SDKs and abstractions to reduce complexity and accelerate adoption by product teams."
     stack:
-      - Python 3, FastAPI, PostgreSQL, Trino, K8s, Helm, etc.
-      - Airflow
+      - Python, FastAPI, PostgreSQL, Trino, Kubernetes, Pandas
 
-  - years: Dec 2019 — Jan 2022
-    employer: "[Revolut](https://www.revolut.com)"
+  - years: "FEB 2022 — SEP 2022"
     city: London, GB
-    job: Software Engineer @ Risks Dev Team
+    job: "Software Engineer — Retail Data Science"
     details:
-      - "Designed and implemented robust solutions for multiple department-level internal projects, while also performing daily maintenance and improvements."
+      - "Core contributor to the design and implementation of Revolut’s Feature Store — a centralized system for managing ML features across Data Science teams. Delivered multiple proofs of concept that shaped the production architecture."
     stack:
-      - Python 3, Flask, FastAPI, PostgreSQL, etc.
-      - React, TypeScript
+      - Python, FastAPI, PostgreSQL, Trino, Kubernetes, Airflow
 
-  - years: Fab 2017 — Aug 2019
-    employer: "[Nextiva](https://www.nextiva.com)"
-    city: Kyiv, Ukraine // Scottsdale, USA
-    job: Software Engineer
+  - years: "DEC 2019 — JAN 2022"
+    city: London, GB
+    job: "Software Engineer — Risks"
     details:
-      - "[Rules Engine](https://www.nextiva.com/support/articles/managing-automation-and-rules-in-nextiva-service-crm.html) development."
-      - "Designed and developed the Core app, a DSL for describing rule conditions, a handy library to handle complex schedules (published as the company's first open-source project — Krolib), and contributed to the creation of an internal SaaS platform on top of it."
+      - "Built and maintained backend services and backoffice tooling for multiple internal Risk systems, owned end-to-end across Python backend and React/TypeScript frontend."
     stack:
-      - Python 3, asyncio, aiohttp, RabbitMQ, JSON:API, Protobuf, gRPC, PostgreSQL, etc.
+      - Python, Flask, FastAPI, PostgreSQL, React, TypeScript
 
-  - years: Nov 2015 — Nov 2016
-    employer: "[B2B Soft](https://b2bsoft.com)"
-    city: Kyiv, Ukraine // New York, USA
-    job: Software Engineer, Tech Lead
+  - years: "FEB 2017 — AUG 2019"
+    employer: Nextiva
+    city: "Kyiv, UA / Scottsdale, USA"
+    job: "Software Engineer — Rules Engine"
     details:
-      - "The brand new medical platform. Design, implementation, release."
+      - "Designed and built a core app and DSL for defining rule conditions — foundation of Nextiva’s Rules Engine. Its scheduling library released as the company’s first open-source project."
     stack:
-      - Python 3, Tornado, JSON RPC
-      - ES6, React/Redux, Webpack (SPA)
-      - Sphinx Search (live search, geo, delta indexes)
-      - Real-time billing and stats (Apache Kafka, MongoDB)
-      - Third-party API integrations (Authorize.Net, Google, Facebook, Mandrill)
-      - Ansible (IaC), AWS (EC2, RDS, S3, Route53) to rule them all
+      - Python, asyncio, aiohttp, RabbitMQ, gRPC, Protobuf, PostgreSQL
 
-  - years: Mar 2015 — Nov 2015
-    employer: "[SoftServe](https://www.softserveinc.com/en-us)"
-    city: Kyiv & Lviv, Ukraine // San Jose, USA
-    job: Software Engineer
+  - years: "NOV 2015 — NOV 2016"
+    employer: B2B Soft
+    city: "Kyiv, UA / New York, USA"
+    job: "Software Engineer & Tech Lead"
     details:
-      - "Telemetry aggregation solution for Cisco Cloud Services, BigData extension for OpenStack Horizon."
+      - "Led design and delivery of a greenfield medical platform from the ground up."
     stack:
-      - Python 2/3, Logstash, MongoDB, RabbitMQ, Puppet
-      - OpenStack, Flask, Tornado, Ansible
-      - ES5, Backbone.js, Marionette.js
+      - Python, Tornado, React, Redux, Kafka, MongoDB, Sphinx, Ansible, AWS
 
-  - years: Fab 2014 — Mar 2015
-    employer: "[Kasta](https://kasta.ua)"
-    city: Kyiv, Ukraine
-    job: Software Engineer, Head of Platform Development
+  - years: "MAR 2015 — NOV 2015"
+    employer: SoftServe
+    city: "Kyiv, UA / San Jose, USA"
+    job: "Software Engineer"
     details:
-      - "The brand new e-commerce platform. Design, implementation, MVP."
+      - "Built telemetry aggregation systems for Cisco Cloud Services."
     stack:
-      - Python 3, Tornado, Elasticsearch, ZeroMQ, ZeroC, Protobuf, PostgreSQL
-      - ES5, Backbone.js, Marionette.js
+      - Python, Logstash, MongoDB, RabbitMQ, OpenStack
 
-  - years: Aug 2013 — Jan 2014
-    employer: "[GetGoing](http://getgoing.com)"
-    city: Kyiv, Ukraine // San Francisco, USA
-    job: Software Engineer
+  - years: "FEB 2014 — MAR 2015"
+    employer: Kasta
+    city: "Kyiv, UA"
+    job: "Software Engineer, Head of Platform Development"
     details:
-      - "Mid-office development, statistical data search and aggregation,
-        [PNR](http://en.wikipedia.org/wiki/Passenger_name_record) Management SPA."
-      - "Implemented seat preview and seat selection for the most popular US airlines
-        (backend and frontend, Amadeus GDS integration)."
+      - "Designed and delivered the MVP of a high-load e-commerce successor platform."
     stack:
-      - Python 2/3, Django, PostgreSQL, Celery, Elasticsearch
-      - ES5, Backbone.js, Marionette.js
+      - Python, Tornado, Elasticsearch, ZeroMQ, Protobuf, PostgreSQL
 
-  - years: Nov 2012 — Aug 2013
-    employer: "[Prom](https://prom.ua)"
-    city: Kyiv, Ukraine
-    job: Backend Developer
+  - years: "AUG 2013 — JAN 2014"
+    employer: GetGoing
+    city: "Kyiv, UA / San Francisco, USA"
+    job: "Software Engineer"
     details:
-      - "Company's internal services maintenance, CRM."
-      - "Better test coverage, legacy code refactoring, data processing and third-party APIs integration."
+      - "Implemented airline seat selection system for a travel startup integrated with Amadeus GDS."
     stack:
-      - Python 2, Pylons, SQLAlchemy, Celery, Mercurial
+      - Python, Django, PostgreSQL, Celery, Elasticsearch, Backbone.js
 
-# Settings
-mainfont: Hoefler Text
-altfont: Helvetica Neue
-monofont: Courier
-fontsize: 12pt
-lang: en-US
-geometry: a4paper, left=50mm, right=25mm, top=25mm, bottom=25mm, marginparwidth=40mm
----
-
+  - years: "NOV 2012 — AUG 2013"
+    employer: Prom
+    city: "Kyiv, UA"
+    job: "Backend Developer"
+    details:
+      - "Internal services and CRM maintenance, data processing, and third-party API integrations."
+    stack:
+      - Python, Pylons, SQLAlchemy, Celery
