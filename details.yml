@@ -8,7 +8,7 @@ personal_urls:
   - github.com/zaiev
   - hypha.pub
 address:
-  - London, GB (settled, no visa required)
+  - London, UK (settled, no visa required)
 
 who:
   - Senior Software Engineer | Technical Founder
@@ -51,22 +51,22 @@ intro:
   - Looking for a senior engineering role with room to grow and long-term impact.
 
 experience:
-  - years: "AUG 2025 — NOW"
+  - years: "JAN 2025 — NOW"
     employer: Hypha Technologies Ltd
-    city: London, GB
+    city: London, UK
     job: "Founder & CTO"
     details:
-      - "Designed and built a complete video-on-demand platform end-to-end — backend, frontend, payments, data processing pipelines, and infrastructure."
-      - "Implemented non-custodial on-chain payments using Solana smart contracts for instant settlement and no intermediary."
-      - "Built encrypted streaming and 4K HDR transcoding pipeline with efficient video fingerprinting."
-      - "Designed custom bare-metal infrastructure on FreeBSD for performance and cost efficiency (case study under discussion with FreeBSD Foundation)."
-      - "Currently onboarding early creators, mentoring engineers, and consulting while refining the platform's economy."
+      - "Designed and built a complete video-on-demand platform end-to-end — backend, frontend, payments, data processing, and infrastructure."
+      - "Implemented non-custodial on-chain payments on Solana via smart contracts for instant settlement without intermediaries."
+      - "Built encrypted streaming and 4K HDR transcoding pipelines."
+      - "Designed custom bare-metal infrastructure on FreeBSD for performance and cost efficiency; working with the FreeBSD Foundation on a potential case study."
+      - "Operating the platform in production; hardening tooling and infrastructure; open-sourcing the best parts."
     stack:
       - Python, FastAPI, PostgreSQL, TimescaleDB, Redis, DuckDB, Solana, Anchor, Solid.js, HTMX, SSE, FreeBSD / Jails, Ansible
 
   - years: "OCT 2022 — DEC 2024"
     employer: Revolut
-    city: London, GB
+    city: London, UK
     job: "Software Engineer — Experimentation Platform"
     details:
       - "Designed and built the core infrastructure for Revolut’s Experimentation Platform, adopted as the company-wide standard across product and ML teams. Replaced fragmented A/B tooling with a unified, scalable system. Built SDKs and abstractions to reduce complexity and accelerate adoption by product teams."
@@ -74,7 +74,7 @@ experience:
       - Python, FastAPI, PostgreSQL, Trino, Kubernetes, Pandas
 
   - years: "FEB 2022 — SEP 2022"
-    city: London, GB
+    city: London, UK
     job: "Software Engineer — Retail Data Science"
     details:
       - "Core contributor to the design and implementation of Revolut’s Feature Store — a centralized system for managing ML features across Data Science teams. Delivered multiple proofs of concept that shaped the production architecture."
@@ -82,7 +82,7 @@ experience:
       - Python, FastAPI, PostgreSQL, Trino, Kubernetes, Airflow
 
   - years: "DEC 2019 — JAN 2022"
-    city: London, GB
+    city: London, UK
     job: "Software Engineer — Risks"
     details:
       - "Built and maintained backend services and backoffice tooling for multiple internal Risk systems, owned end-to-end across Python backend and React/TypeScript frontend."
