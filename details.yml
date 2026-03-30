@@ -31,6 +31,9 @@ projects:
   - text: "Hypha — video platform with non-custodial economy"
     url: "hypha.tv"
 
+  - text: "Jalrun — sane orchestration for isolated environments"
+    url: "jail.run"
+
 talks:
   - text: "Stop Using ORMs // PyCon LT 2026"
     url: "pycon.lt/2026/talks/USQ7KK"
@@ -41,104 +44,109 @@ talks:
 
 intro:
   - Software engineer with 15 years of experience designing and building production
-    systems end-to-end — from high-load e-commerce platforms and fintech infrastructure
-    to an early-stage video platform with on-chain payments.
+    systems end to end — from high-load e-commerce platforms and fintech infrastructure
+    to an early-stage video platform with on-chain payments and radically simple, cost-efficient
+    bare-metal infrastructure.
 
   - Known for building systems that are simple, elegant, and reliable for the long run.
 
-  - I operate best in environments that value technical depth, vision and ownership, alongside talented and self-motivated people on problems that matter.
+  - I do my best work in environments that value technical depth, vision, and ownership, alongside talented,
+    self-motivated people solving meaningful problems.
 
-  - Looking for a senior engineering role with room to grow and long-term impact.
+  - Seeking senior engineering or technical founder roles with significant ownership, growth potential,
+    and long-term impact.
 
 experience:
   - years: "JAN 2025 — NOW"
     employer: Hypha Technologies Ltd
     city: London, UK
-    job: "Founder & CTO"
+    job: Founder
     details:
-      - "Designed and built a complete video-on-demand platform end-to-end — backend, frontend, payments, data processing, and infrastructure."
-      - "Implemented non-custodial on-chain payments on Solana via smart contracts for instant settlement without intermediaries."
-      - "Built encrypted streaming and 4K HDR transcoding pipelines."
-      - "Designed custom bare-metal infrastructure on FreeBSD for performance and cost efficiency; working with the FreeBSD Foundation on a potential case study."
-      - "Operating the platform in production; hardening tooling and infrastructure; open-sourcing the best parts."
+      - Designed and built a complete video-on-demand platform end-to-end — backend, frontend, payments, data processing, and infrastructure.
+      - Implemented non-custodial on-chain payments on Solana via smart contracts for instant settlement without intermediaries.
+      - Designed custom bare-metal infrastructure on FreeBSD for performance and cost efficiency; working with the FreeBSD Foundation on a potential case study.
+      - Operating the platform in production; hardening tooling and infrastructure; open-sourcing the best parts.
     stack:
       - Python, FastAPI, PostgreSQL, TimescaleDB, Redis, DuckDB, Solana, Anchor, Solid.js, HTMX, SSE, FreeBSD / Jails, Ansible
 
   - years: "OCT 2022 — DEC 2024"
     employer: Revolut
     city: London, UK
-    job: "Software Engineer — Experimentation Platform"
+    job: Software Engineer — Experimentation Platform
     details:
-      - "Designed and built the core infrastructure for Revolut’s Experimentation Platform, adopted as the company-wide standard across product and ML teams. Replaced fragmented A/B tooling with a unified, scalable system. Built SDKs and abstractions to reduce complexity and accelerate adoption by product teams."
+      - Designed and built the core infrastructure for Revolut’s Experimentation Platform, adopted as the company-wide standard across product and ML teams.
+        Replaced fragmented A/B tooling with a unified, scalable system. Built SDKs and abstractions to reduce complexity and accelerate adoption by product teams.
     stack:
       - Python, FastAPI, PostgreSQL, Trino, Kubernetes, Pandas
 
   - years: "FEB 2022 — SEP 2022"
     city: London, UK
-    job: "Software Engineer — Retail Data Science"
+    job: Software Engineer — Retail Data Science
     details:
-      - "Core contributor to the design and implementation of Revolut’s Feature Store — a centralized system for managing ML features across Data Science teams. Delivered multiple proofs of concept that shaped the production architecture."
+      - Core contributor to the design and implementation of Revolut’s Feature Store — a centralized system for managing ML features across Data Science teams.
+        Delivered multiple proofs of concept that shaped the production architecture.
     stack:
       - Python, FastAPI, PostgreSQL, Trino, Kubernetes, Airflow
 
   - years: "DEC 2019 — JAN 2022"
     city: London, UK
-    job: "Software Engineer — Risks"
+    job: Software Engineer — Risks
     details:
-      - "Built and maintained backend services and backoffice tooling for multiple internal Risk systems, owned end-to-end across Python backend and React/TypeScript frontend."
+      - Built and maintained backend services and backoffice tooling for multiple internal Risk systems, owned end-to-end across Python backend and React/TypeScript frontend.
     stack:
       - Python, Flask, FastAPI, PostgreSQL, React, TypeScript
 
   - years: "FEB 2017 — AUG 2019"
     employer: Nextiva
-    city: "Kyiv, UA / Scottsdale, USA"
-    job: "Software Engineer — Rules Engine"
+    city: Kyiv, UA / Scottsdale, USA
+    job: Software Engineer — Rules Engine
     details:
-      - "Designed and built a core app and DSL for defining rule conditions — foundation of Nextiva’s Rules Engine. Its scheduling library released as the company’s first open-source project."
+      - Designed and built a core app and DSL for defining rule conditions — foundation of Nextiva’s Rules Engine.
+        Its scheduling library released as the company’s first open-source project.
     stack:
       - Python, asyncio, aiohttp, RabbitMQ, gRPC, Protobuf, PostgreSQL
 
   - years: "NOV 2015 — NOV 2016"
     employer: B2B Soft
-    city: "Kyiv, UA / New York, USA"
-    job: "Software Engineer & Tech Lead"
+    city: Kyiv, UA / New York, USA
+    job: Software Engineer & Tech Lead
     details:
-      - "Led design and delivery of a greenfield medical platform from the ground up."
+      - Led design and delivery of a greenfield medical platform from the ground up.
     stack:
       - Python, Tornado, React, Redux, Kafka, MongoDB, Sphinx, Ansible, AWS
 
   - years: "MAR 2015 — NOV 2015"
     employer: SoftServe
-    city: "Kyiv, UA / San Jose, USA"
-    job: "Software Engineer"
+    city: Kyiv, UA / San Jose, USA
+    job: Software Engineer
     details:
-      - "Built telemetry aggregation systems for Cisco Cloud Services."
+      - Built telemetry aggregation systems for Cisco Cloud Services.
     stack:
       - Python, Logstash, MongoDB, RabbitMQ, OpenStack
 
   - years: "FEB 2014 — MAR 2015"
     employer: Kasta
-    city: "Kyiv, UA"
-    job: "Software Engineer, Head of Platform Development"
+    city: Kyiv, UA
+    job: Software Engineer, Head of Platform Development
     details:
-      - "Designed and delivered the MVP of a high-load e-commerce successor platform."
+      - Designed and delivered the MVP of a high-load e-commerce successor platform.
     stack:
       - Python, Tornado, Elasticsearch, ZeroMQ, Protobuf, PostgreSQL
 
   - years: "AUG 2013 — JAN 2014"
     employer: GetGoing
-    city: "Kyiv, UA / San Francisco, USA"
-    job: "Software Engineer"
+    city: Kyiv, UA / San Francisco, USA
+    job: Software Engineer
     details:
-      - "Implemented airline seat selection system for a travel startup integrated with Amadeus GDS."
+      - Implemented airline seat selection system for a travel startup integrated with Amadeus GDS.
     stack:
       - Python, Django, PostgreSQL, Celery, Elasticsearch, Backbone.js
 
   - years: "NOV 2012 — AUG 2013"
     employer: Prom
-    city: "Kyiv, UA"
-    job: "Backend Developer"
+    city: Kyiv, UA
+    job: Backend Developer
     details:
-      - "Internal services and CRM maintenance, data processing, and third-party API integrations."
+      - Internal services and CRM maintenance, data processing, and third-party API integrations.
     stack:
       - Python, Pylons, SQLAlchemy, Celery
