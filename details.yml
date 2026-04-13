@@ -31,7 +31,7 @@ projects:
   - text: "Hypha — video platform with non-custodial economy"
     url: "hypha.tv"
 
-  - text: "Jalrun — sane orchestration for isolated environments"
+  - text: "Jailrun — sane orchestration for isolated environments"
     url: "jail.run"
 
 talks:
